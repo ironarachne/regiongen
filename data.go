@@ -1,14 +1,6 @@
 package regiongen
 
 var (
-	availableRegions = []string{
-		"coastal",
-		"desert",
-		"forest",
-		"hills",
-		"mountains",
-	}
-
 	classes = map[string]int{
 		"barony":    3,
 		"county":    4,

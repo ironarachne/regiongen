@@ -5,6 +5,7 @@ import (
 	"strings"
 
 	"github.com/ironarachne/chargen"
+	"github.com/ironarachne/climategen"
 	"github.com/ironarachne/heraldry"
 	"github.com/ironarachne/naminglanguage"
 	"github.com/ironarachne/orggen"
@@ -45,12 +46,17 @@ func randomClass() RegionClass {
 // GenerateRegion generates a random region
 func GenerateRegion(regionType string) Region {
 	region := Region{}
+	climate := climategen.Climate{}
 
 	if regionType == "random" {
-		regionType = utility.RandomItem(availableRegions)
+		climate = climategen.Generate()
+	} else {
+		climate = climategen.GetClimate(regionType)
 	}
 
-	region.Biome = regionType
+	regionType = climate.Name
+
+	region.Biome = climate.Name
 
 	region.Class = randomClass()
 
