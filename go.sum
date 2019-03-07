@@ -33,6 +33,8 @@ github.com/ironarachne/namegen v0.0.0-20181025152707-2bd82e456d8f h1:ojeQHdbLs7B
 github.com/ironarachne/namegen v0.0.0-20181025152707-2bd82e456d8f/go.mod h1:eyp4WtK269tAXz/Q80hVD+h+wcbqDeYpuQ+fKuByBVE=
 github.com/ironarachne/naminglanguage v0.0.0-20181009131908-d2337dcdc3f6 h1:2Dtuu2zauMMVEFzdLVo9zc9RP7StjMPYMvnW5VMV/5E=
 github.com/ironarachne/naminglanguage v0.0.0-20181009131908-d2337dcdc3f6/go.mod h1:RRZ/YORWnRdgF/WP8aWOb9If3tzcAyXGQtJGIGQN2w0=
+github.com/ironarachne/orggen v0.0.0-20190307143258-85d9edc87c44 h1:AxPg6Rojd2TXZVRkCQjkaUuQYEwB3btAo8AhTNGp9lQ=
+github.com/ironarachne/orggen v0.0.0-20190307143258-85d9edc87c44/go.mod h1:N1OUGEd9p/SpsVTyJYqvvjVMZwK1N/HJ7MyjOxaFyqg=
 github.com/ironarachne/towngen v0.0.0-20190227204217-b3b9f28736d0 h1:e/zBTkUp/uE8ufRaXmWYbqGCzBxFiQO2jG1EOmTonbc=
 github.com/ironarachne/towngen v0.0.0-20190227204217-b3b9f28736d0/go.mod h1:iuGS5UGoxxrXpIqpWBHkiPradroaF0kHXLFYLtM+dw8=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b h1:EhG1yiJbIUwbHhtAAqoPxW0ClJnE9W5HLSyHSu9gVk8=
@@ -72,9 +74,12 @@ github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeV
 golang.org/x/crypto v0.0.0-20190130090550-b01c7a725664/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
 golang.org/x/crypto v0.0.0-20190225124518-7f87c0fbb88b h1:+/WWzjwW6gidDJnMKWLKLX1gxn7irUTF1fLpQovfQ5M=
 golang.org/x/crypto v0.0.0-20190225124518-7f87c0fbb88b/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
+golang.org/x/crypto v0.0.0-20190228161510-8dd112bcdc25 h1:jsG6UpNLt9iAsb0S2AGW28DveNzzgmbXR+ENoPjUeIU=
+golang.org/x/crypto v0.0.0-20190228161510-8dd112bcdc25/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/net v0.0.0-20181023162649-9b4f9f5ad519/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
 golang.org/x/net v0.0.0-20181220203305-927f97764cc3 h1:eH6Eip3UpmR+yM/qI9Ijluzb1bNv/cAU/n+6l8tRSis=
 golang.org/x/net v0.0.0-20181220203305-927f97764cc3/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/tools v0.0.0-20181221001348-537d06c36207/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce/go.mod h1:yeKp02qBN3iKW1OzL3MGk2IdtZzaj7SFntXj72NppTA=

@@ -1,11 +1,13 @@
 package regiongen
 
 import (
+	"math/rand"
 	"strings"
 
 	"github.com/ironarachne/chargen"
 	"github.com/ironarachne/heraldry"
 	"github.com/ironarachne/naminglanguage"
+	"github.com/ironarachne/orggen"
 	"github.com/ironarachne/towngen"
 	"github.com/ironarachne/utility"
 )
@@ -21,6 +23,7 @@ type Region struct {
 	RulerHeraldry string
 	RulerTitle    string
 	Towns         []towngen.Town
+	Organizations []orggen.Organization
 }
 
 // RegionClass is a class of region
@@ -59,6 +62,14 @@ func GenerateRegion(regionType string) Region {
 	for i := region.Class.MinNumberOfTowns - 1; i < region.Class.MaxNumberOfTowns-1; i++ {
 		newTown = towngen.GenerateTown("random", regionType)
 		region.Towns = append(region.Towns, newTown)
+	}
+
+	numberOfOrgs := rand.Intn(3) + 1
+	newOrg := orggen.Organization{}
+
+	for i := 0; i < numberOfOrgs; i++ {
+		newOrg = orggen.Generate()
+		region.Organizations = append(region.Organizations, newOrg)
 	}
 
 	region.Ruler = chargen.GenerateCharacter()
