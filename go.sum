@@ -26,6 +26,8 @@ github.com/iris-contrib/go.uuid v2.0.0+incompatible h1:XZubAYg61/JwnJNbZilGjf3b3
 github.com/iris-contrib/go.uuid v2.0.0+incompatible/go.mod h1:iz2lgM/1UnEf1kP0L/+fafWORmlnuysV2EMP8MW+qe0=
 github.com/ironarachne/chargen v0.0.0-20190227204145-5663f144e70f h1:yfIzoH4/hyQEMiVbDKkILZCQ0iyqv4OtdwIeW8NPSmk=
 github.com/ironarachne/chargen v0.0.0-20190227204145-5663f144e70f/go.mod h1:meRL/nZQMy2Mb3W9CLNPRi8msJbXwriUimC5FOyvreE=
+github.com/ironarachne/chargen v0.0.0-20190309165134-658ccecdd5a6 h1:HhLgiI0iXQliGrw4nTZGMAFldmtHL+halitBHkg3ywE=
+github.com/ironarachne/chargen v0.0.0-20190309165134-658ccecdd5a6/go.mod h1:QWyM/MlBeATqUl/UTDl4KrRv8ehI9GNI1hY54yA+JjE=
 github.com/ironarachne/climategen v0.0.0-20190307203027-33cfbd75157b h1:c2NOAzuxJEAUzrjTOZ/ktsd//UKD+pSgIvjC6JF0rC8=
 github.com/ironarachne/climategen v0.0.0-20190307203027-33cfbd75157b/go.mod h1:34t9weUujzzU37r/wMBaQfVN55QOh+otxtZ9nPWKsAM=
 github.com/ironarachne/climategen v0.0.0-20190309163423-cddd04bd0fd1 h1:0WmUF2GCZ2ae2Qv/FPFkZQu0Q6MIBUbwh8wd3qIQf20=
@@ -36,6 +38,8 @@ github.com/ironarachne/heraldry v0.0.0-20190309155546-459cda15e070 h1:a+q0DsSqVt
 github.com/ironarachne/heraldry v0.0.0-20190309155546-459cda15e070/go.mod h1:Ye2CmfxYD1Pnr55Eldg4mWHTdIPe8JhqP8qwW15UbZc=
 github.com/ironarachne/namegen v0.0.0-20181025152707-2bd82e456d8f h1:ojeQHdbLs7BMNJD4kDTH7H/wBLkRRxwMKBI3Tjr3VNo=
 github.com/ironarachne/namegen v0.0.0-20181025152707-2bd82e456d8f/go.mod h1:eyp4WtK269tAXz/Q80hVD+h+wcbqDeYpuQ+fKuByBVE=
+github.com/ironarachne/namegen v0.0.0-20190309164720-ff7d64aed378 h1:aapy0hwbvM8gP1rcmXC1t1UiZ37qJzBrw/qbEu/RXCU=
+github.com/ironarachne/namegen v0.0.0-20190309164720-ff7d64aed378/go.mod h1:B5W+JNNiMpaRGM7wkqbefTs+Q7TcKODMDo547AhWcnI=
 github.com/ironarachne/naminglanguage v0.0.0-20181009131908-d2337dcdc3f6 h1:2Dtuu2zauMMVEFzdLVo9zc9RP7StjMPYMvnW5VMV/5E=
 github.com/ironarachne/naminglanguage v0.0.0-20181009131908-d2337dcdc3f6/go.mod h1:RRZ/YORWnRdgF/WP8aWOb9If3tzcAyXGQtJGIGQN2w0=
 github.com/ironarachne/orggen v0.0.0-20190307143258-85d9edc87c44 h1:AxPg6Rojd2TXZVRkCQjkaUuQYEwB3btAo8AhTNGp9lQ=
@@ -46,6 +50,8 @@ github.com/ironarachne/towngen v0.0.0-20190309162624-fb04572b23cd h1:x+eJMRQZ1xe
 github.com/ironarachne/towngen v0.0.0-20190309162624-fb04572b23cd/go.mod h1:f3x4pNFgq1AHSSgVjqd+3+zTsPEGTWH7hzBq7hAHuZw=
 github.com/ironarachne/towngen v0.0.0-20190309163542-22cfa4dd05a5 h1:Gm1XyjbOFplOj9OwbMAQkq0QOA4b8qQWSyJDJj2ji90=
 github.com/ironarachne/towngen v0.0.0-20190309163542-22cfa4dd05a5/go.mod h1:IXR5zNS8eQGT6c5Q1CgRQTzeV8WlluVep+OfcLDdqoI=
+github.com/ironarachne/towngen v0.0.0-20190309164831-2efbeaad5a0e h1:XS+iQEWJkHd01r83Ft0qeiFO2r2gOYfnBIwNDG9U+NU=
+github.com/ironarachne/towngen v0.0.0-20190309164831-2efbeaad5a0e/go.mod h1:vOeDj/iQ1u1I6WT/fd1ONpCpJaG8h6CTLGL5qhVrC7I=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b h1:EhG1yiJbIUwbHhtAAqoPxW0ClJnE9W5HLSyHSu9gVk8=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b/go.mod h1:1pbHvjC5wh3M6kSUB46xHYUnWZ1iMqr8h/07w0n2Gak=
 github.com/json-iterator/go v1.1.5 h1:gL2yXlmiIo4+t+y32d4WGwOjKGYcGOuyrg46vadswDE=
