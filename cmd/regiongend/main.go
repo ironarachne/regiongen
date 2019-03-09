@@ -52,11 +52,13 @@ func main() {
 
 		if found {
 			regionData := region.(regiongen.Region)
+			ctx.ContentType("image/svg+xml")
 			ctx.Writef(regionData.RulerHeraldry)
 		} else {
 			rand.Seed(id)
 			region := regiongen.GenerateRegion("random")
 			c.Set("region_"+strconv.FormatInt(id, 10), region, cache.DefaultExpiration)
+			ctx.ContentType("image/svg+xml")
 			ctx.Writef(region.RulerHeraldry)
 		}
 	})
