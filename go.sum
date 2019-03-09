@@ -52,6 +52,8 @@ github.com/ironarachne/towngen v0.0.0-20190309163542-22cfa4dd05a5 h1:Gm1XyjbOFpl
 github.com/ironarachne/towngen v0.0.0-20190309163542-22cfa4dd05a5/go.mod h1:IXR5zNS8eQGT6c5Q1CgRQTzeV8WlluVep+OfcLDdqoI=
 github.com/ironarachne/towngen v0.0.0-20190309164831-2efbeaad5a0e h1:XS+iQEWJkHd01r83Ft0qeiFO2r2gOYfnBIwNDG9U+NU=
 github.com/ironarachne/towngen v0.0.0-20190309164831-2efbeaad5a0e/go.mod h1:vOeDj/iQ1u1I6WT/fd1ONpCpJaG8h6CTLGL5qhVrC7I=
+github.com/ironarachne/towngen v0.0.0-20190309165237-f6e2bead37d6 h1:72Eua894kCaGGGLjIZxTg/LqTYmTUX+7zi8gZo27EU4=
+github.com/ironarachne/towngen v0.0.0-20190309165237-f6e2bead37d6/go.mod h1:ZPl8HsNErCzckhvzur3wRjiG+iwoNBZlZaA0StR6krE=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b h1:EhG1yiJbIUwbHhtAAqoPxW0ClJnE9W5HLSyHSu9gVk8=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b/go.mod h1:1pbHvjC5wh3M6kSUB46xHYUnWZ1iMqr8h/07w0n2Gak=
 github.com/json-iterator/go v1.1.5 h1:gL2yXlmiIo4+t+y32d4WGwOjKGYcGOuyrg46vadswDE=
