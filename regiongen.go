@@ -7,7 +7,7 @@ import (
 	"github.com/ironarachne/chargen"
 	"github.com/ironarachne/climategen"
 	"github.com/ironarachne/heraldry"
-	"github.com/ironarachne/naminglanguage"
+	"github.com/ironarachne/placenamegen"
 	"github.com/ironarachne/orggen"
 	"github.com/ironarachne/towngen"
 	"github.com/ironarachne/utility"
@@ -89,8 +89,8 @@ func GenerateRegion(regionType string) Region {
 	region.RulerHeraldry = device.RenderToSVG(320, 420)
 	region.RulerBlazon = device.RenderToBlazon()
 
-	regionName := naminglanguage.GeneratePlace()
-	region.Name = strings.Title(regionName.Name)
+	regionName := placenamegen.Generate()
+	region.Name = strings.Title(regionName)
 
 	return region
 }
