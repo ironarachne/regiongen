@@ -10,7 +10,7 @@ import (
 	"github.com/ironarachne/placenamegen"
 	"github.com/ironarachne/orggen"
 	"github.com/ironarachne/towngen"
-	"github.com/ironarachne/utility"
+	"github.com/ironarachne/random"
 )
 
 // Region is a map region
@@ -37,7 +37,7 @@ type RegionClass struct {
 }
 
 func randomClass() RegionClass {
-	class := utility.RandomItemFromThresholdMap(classes)
+	class := random.ItemFromThresholdMap(classes)
 	regionClass := classData[class]
 
 	return regionClass

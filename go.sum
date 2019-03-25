@@ -36,6 +36,8 @@ github.com/ironarachne/orggen v0.0.0-20190307143258-85d9edc87c44 h1:AxPg6Rojd2TX
 github.com/ironarachne/orggen v0.0.0-20190307143258-85d9edc87c44/go.mod h1:N1OUGEd9p/SpsVTyJYqvvjVMZwK1N/HJ7MyjOxaFyqg=
 github.com/ironarachne/placenamegen v0.0.0-20190311181634-645604419b88 h1:RnxfAYcFfNZKW/+ZmzIqyssSUmgGpubOwKClBw95bnQ=
 github.com/ironarachne/placenamegen v0.0.0-20190311181634-645604419b88/go.mod h1:qQjES2iG6yEI0RUT6mb9+7yx0y9Tuk60V+0c20LNh20=
+github.com/ironarachne/random v0.0.0-20190325170425-9caaa0b3405a h1:Wf3LfJ3RJ9m7WFveQs/S6I/NkNiviSfew9afED9BPS0=
+github.com/ironarachne/random v0.0.0-20190325170425-9caaa0b3405a/go.mod h1:YUzpzLiGzz2YTOhXMk61UBGze9jiaKfpFXF6YF2nd2Q=
 github.com/ironarachne/towngen v0.0.0-20190309165237-f6e2bead37d6 h1:72Eua894kCaGGGLjIZxTg/LqTYmTUX+7zi8gZo27EU4=
 github.com/ironarachne/towngen v0.0.0-20190309165237-f6e2bead37d6/go.mod h1:ZPl8HsNErCzckhvzur3wRjiG+iwoNBZlZaA0StR6krE=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b h1:EhG1yiJbIUwbHhtAAqoPxW0ClJnE9W5HLSyHSu9gVk8=
