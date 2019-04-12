@@ -6,16 +6,19 @@ import (
 
 	"github.com/ironarachne/chargen"
 	"github.com/ironarachne/climategen"
+	"github.com/ironarachne/culturegen"
 	"github.com/ironarachne/heraldry"
-	"github.com/ironarachne/placenamegen"
 	"github.com/ironarachne/orggen"
-	"github.com/ironarachne/towngen"
+	"github.com/ironarachne/placenamegen"
 	"github.com/ironarachne/random"
+	"github.com/ironarachne/towngen"
 )
 
 // Region is a map region
 type Region struct {
 	Biome         string
+	Culture       culturegen.Culture
+	Climate       climategen.Climate
 	Capital       string
 	Class         RegionClass
 	Name          string
@@ -57,16 +60,21 @@ func GenerateRegion(regionType string) Region {
 	regionType = climate.Name
 
 	region.Biome = climate.Name
+	region.Climate = climate
+	region.Culture = culturegen.GenerateCulture()
+	region.Culture = region.Culture.SetClimate(region.Biome)
 
 	region.Class = randomClass()
 
 	newTown := towngen.GenerateTown("city", regionType)
+	newTown = towngen.SetCulture(region.Culture, newTown)
 	region.Towns = append(region.Towns, newTown)
 
 	region.Capital = newTown.Name
 
 	for i := region.Class.MinNumberOfTowns - 1; i < region.Class.MaxNumberOfTowns-1; i++ {
 		newTown = towngen.GenerateTown("random", regionType)
+		newTown = towngen.SetCulture(region.Culture, newTown)
 		region.Towns = append(region.Towns, newTown)
 	}
 
@@ -79,6 +87,8 @@ func GenerateRegion(regionType string) Region {
 	}
 
 	region.Ruler = chargen.GenerateCharacter()
+	region.Ruler.FirstName = region.Culture.Language.RandomGenderedName(region.Ruler.Gender)
+	region.Ruler.LastName = region.Culture.Language.RandomName()
 	region.Ruler.Profession = "noble"
 	region.RulerTitle = region.Class.RulerTitleFemale
 	if region.Ruler.Gender == "male" {
