@@ -32,6 +32,8 @@ github.com/ironarachne/chargen v0.0.0-20190309165134-658ccecdd5a6 h1:HhLgiI0iXQl
 github.com/ironarachne/chargen v0.0.0-20190309165134-658ccecdd5a6/go.mod h1:QWyM/MlBeATqUl/UTDl4KrRv8ehI9GNI1hY54yA+JjE=
 github.com/ironarachne/chargen v0.0.0-20190325171707-70291dcd719e h1:UhUTXvhCfwogQ34Qdq5xaINbrR0iiOqHdyte+NYppAE=
 github.com/ironarachne/chargen v0.0.0-20190325171707-70291dcd719e/go.mod h1:wxok2jFzjstYONpqiJQXiWkKlC4qUoqXiwijDYekOok=
+github.com/ironarachne/chargen v0.0.0-20190412174212-ab0f7cfda877 h1:huEJtlOW/vQu199RhRtavCUlDT9qsFnWkMXvrzpzHkQ=
+github.com/ironarachne/chargen v0.0.0-20190412174212-ab0f7cfda877/go.mod h1:jKx82qUpgt4s3E/noyczAT+64YuOfBphoUByBD6G0Ng=
 github.com/ironarachne/climategen v0.0.0-20190309163423-cddd04bd0fd1 h1:0WmUF2GCZ2ae2Qv/FPFkZQu0Q6MIBUbwh8wd3qIQf20=
 github.com/ironarachne/climategen v0.0.0-20190309163423-cddd04bd0fd1/go.mod h1:nFxt2d6J/nlXpa5surgw8foZcmVdUbstyrBo5cv7dh8=
 github.com/ironarachne/climategen v0.0.0-20190411160729-21e7b32e3cb2 h1:zc3UIdlX3OMRrvb6CDe8rLuZ73Xfg2Fyn3BnEu6hSRE=
@@ -69,6 +71,8 @@ github.com/ironarachne/towngen v0.0.0-20190411162951-4ae1b95ace19 h1:xpnkexS9fMe
 github.com/ironarachne/towngen v0.0.0-20190411162951-4ae1b95ace19/go.mod h1:RekiCP4keS+iCmrqSGewJs4RauNV8xQVy4o0wzBewkk=
 github.com/ironarachne/towngen v0.0.0-20190412171506-c603f9afd041 h1:0y43DGM7/qYYfs1j3RyLkl4Mz0LGL47YvJamt7exFPU=
 github.com/ironarachne/towngen v0.0.0-20190412171506-c603f9afd041/go.mod h1:qs9puPZslZIHkck1k2B9fLcVDB8X1g2xJE3o2g5815w=
+github.com/ironarachne/towngen v0.0.0-20190412174634-119b388e0747 h1:WSZDRqxUfUoGE5URH05MMMCIfhsUbiYyDNXr1rXxU84=
+github.com/ironarachne/towngen v0.0.0-20190412174634-119b388e0747/go.mod h1:YC+VcE6UaEgrMxJm1RMFKC5UjRonNt9n1owhoRB3B88=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b h1:EhG1yiJbIUwbHhtAAqoPxW0ClJnE9W5HLSyHSu9gVk8=
 github.com/ironarachne/utility v0.0.0-20181021125830-32a6c250e33b/go.mod h1:1pbHvjC5wh3M6kSUB46xHYUnWZ1iMqr8h/07w0n2Gak=
 github.com/json-iterator/go v1.1.5 h1:gL2yXlmiIo4+t+y32d4WGwOjKGYcGOuyrg46vadswDE=

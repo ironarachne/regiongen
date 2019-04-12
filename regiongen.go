@@ -9,7 +9,6 @@ import (
 	"github.com/ironarachne/culturegen"
 	"github.com/ironarachne/heraldry"
 	"github.com/ironarachne/orggen"
-	"github.com/ironarachne/placenamegen"
 	"github.com/ironarachne/random"
 	"github.com/ironarachne/towngen"
 )
@@ -86,9 +85,7 @@ func GenerateRegion(regionType string) Region {
 		region.Organizations = append(region.Organizations, newOrg)
 	}
 
-	region.Ruler = chargen.GenerateCharacter()
-	region.Ruler.FirstName = region.Culture.Language.RandomGenderedName(region.Ruler.Gender)
-	region.Ruler.LastName = region.Culture.Language.RandomName()
+	region.Ruler = chargen.GenerateCharacterOfCulture(region.Culture)
 	region.Ruler.Profession = "noble"
 	region.RulerTitle = region.Class.RulerTitleFemale
 	if region.Ruler.Gender == "male" {
@@ -99,7 +96,7 @@ func GenerateRegion(regionType string) Region {
 	region.RulerHeraldry = device.RenderToSVG(320, 420)
 	region.RulerBlazon = device.RenderToBlazon()
 
-	regionName := placenamegen.Generate()
+	regionName := region.Culture.Language.RandomName()
 	region.Name = strings.Title(regionName)
 
 	return region
