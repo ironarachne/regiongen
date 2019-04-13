@@ -85,8 +85,8 @@ func GenerateRegion(regionType string) Region {
 		region.Organizations = append(region.Organizations, newOrg)
 	}
 
-	region.Ruler = chargen.GenerateCharacterOfCulture(region.Culture)
-	region.Ruler.Profession = "noble"
+	region.Ruler = region.generateRuler()
+
 	region.RulerTitle = region.Class.RulerTitleFemale
 	if region.Ruler.Gender == "male" {
 		region.RulerTitle = region.Class.RulerTitleMale
